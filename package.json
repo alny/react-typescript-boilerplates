@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build && node server.js",
     "build": "./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack-dev-server --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
